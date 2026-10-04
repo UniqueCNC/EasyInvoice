@@ -1,0 +1,24 @@
+{
+  "invoices": [
+    {
+      "invoice_number": "J-101",
+      "issue_date": "2026-08-05",
+      "due_date": "2026-08-19",
+      "status": "paid",
+      "customer": { "name": "Nested Traders", "email": "nested@example.com", "phone": "081 222 3333" },
+      "items": [
+        { "description": "Wooden sign 60cm", "quantity": 2, "unit_price": 350 },
+        { "description": "Delivery", "quantity": 1, "unit_price": 120 }
+      ],
+      "total": 943.00
+    },
+    {
+      "invoice_number": "J-102",
+      "issue_date": "2026-08-20",
+      "status": "unpaid",
+      "customer": { "name": "Flat Co" },
+      "items": [ { "description": "Logo design", "quantity": 1, "unit_price": 1500 } ],
+      "total": 1500
+    }
+  ]
+}

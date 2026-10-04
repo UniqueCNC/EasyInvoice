@@ -1,0 +1,6 @@
+Invoice No,Date,Due Date,Client,Email,Phone,Total,Amount Paid,Status,Notes
+INV-2001,05/08/2026,19/08/2026,Thandi Nkosi,thandi@example.com,082 111 2222,"1,150.00",1150.00,Paid,Delivered to Soweto
+INV-2002,12/08/2026,26/08/2026,Bob's Bakery,,083 333 4444,250.50,100.00,Partially paid,
+INV-2003,20/08/2026,,Carol Smith,carol@example.com,,99.00,,Unpaid,Second order
+INV-2004,02/09/2026,16/09/2026,Dave Mokoena,,084 555 6666,abc,,Unpaid,This row has a bad amount on purpose
+INV-2005,not a date,,Erin Pillay,,,480.00,,Unpaid,This row has a bad date on purpose
